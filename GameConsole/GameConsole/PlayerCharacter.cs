@@ -16,10 +16,10 @@ namespace GameConsole
 
         public bool? IsNoob { get; set; }
 
-        public PlayerCharacter()
-        {
-            DateOfBirth = null;
-            DaysSinceLastLogin = null;
-        }
+        //public PlayerCharacter()
+        //{
+        //    DateOfBirth = null;
+        //    DaysSinceLastLogin = null;
+        //}
     }
 }
