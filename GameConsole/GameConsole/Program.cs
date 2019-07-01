@@ -10,6 +10,12 @@ namespace GameConsole
     {
         static void Main(string[] args)
         {
+            var player = new PlayerCharacter();
+            player.Name = "Sarah";
+            PlayerDisplayer.Write(player);
+
+
+            Console.ReadLine();
         }
     }
 }
