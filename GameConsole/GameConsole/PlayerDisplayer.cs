@@ -12,7 +12,7 @@ namespace GameConsole
         {
             Console.WriteLine(player.Name);
 
-            if(player.DaysSinceLastLogin == -1)
+            if(player.DaysSinceLastLogin == 1)
             {
                 Console.WriteLine("No value for DaysSinceLastLogin");
             }
