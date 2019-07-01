@@ -14,6 +14,8 @@ namespace GameConsole
 
         public DateTime? DateOfBirth { get; set; }
 
+        public bool? IsNoob { get; set; }
+
         public PlayerCharacter()
         {
             DateOfBirth = null;
