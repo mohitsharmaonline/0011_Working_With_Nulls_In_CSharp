@@ -14,6 +14,10 @@ namespace GameConsole
 
         public DateTime DateOfBirth { get; set; }
 
-
+        public PlayerCharacter()
+        {
+            DateOfBirth = DateTime.MinValue;
+            DaysSinceLastLogin = -1;
+        }
     }
 }
