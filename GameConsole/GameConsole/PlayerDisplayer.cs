@@ -21,7 +21,7 @@ namespace GameConsole
 
             if(player.DaysSinceLastLogin.HasValue)
             {
-                Console.WriteLine(player.DaysSinceLastLogin);                
+                Console.WriteLine(player.DaysSinceLastLogin.Value);                
             }
             else
             {
