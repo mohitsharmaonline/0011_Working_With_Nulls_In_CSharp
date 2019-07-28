@@ -20,7 +20,8 @@ namespace GameConsole
             }
 
             //int days = player.DaysSinceLastLogin.GetValueOrDefault(-1);
-            int days = player.DaysSinceLastLogin.HasValue ? player.DaysSinceLastLogin.Value : -1;
+            //int days = player.DaysSinceLastLogin.HasValue ? player.DaysSinceLastLogin.Value : -1;
+            int days = player.DaysSinceLastLogin ?? -1;
             Console.WriteLine($"{days} since last login.");
 
             //if(player.DaysSinceLastLogin.HasValue)
