@@ -25,6 +25,7 @@ namespace GameConsole
             }
             else
             {
+                Console.WriteLine(player.DaysSinceLastLogin.Value);
                 Console.WriteLine("No value for DaysSinceLastLogin");
             }
 
