@@ -10,8 +10,8 @@ namespace GameConsole
     {
         static void Main(string[] args)
         {
-            PlayerCharacter player = null;
-            //player.DaysSinceLastLogin = 42;
+            PlayerCharacter player = new PlayerCharacter();
+            player.DaysSinceLastLogin = 42;
 
             //int days = player.DaysSinceLastLogin.Value;
             int days;
