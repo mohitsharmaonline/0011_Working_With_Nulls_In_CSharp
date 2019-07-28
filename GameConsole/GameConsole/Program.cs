@@ -14,7 +14,16 @@ namespace GameConsole
             //player.DaysSinceLastLogin = 42;
 
             //int days = player.DaysSinceLastLogin.Value;
-            int days = player.DaysSinceLastLogin ?? -1;
+            int days;
+            if(player != null)
+            {
+                days = player.DaysSinceLastLogin ?? -1;
+            }
+            else
+            {
+                days = -1;
+            }
+
             Console.WriteLine(days);
             
             Console.ReadLine();
